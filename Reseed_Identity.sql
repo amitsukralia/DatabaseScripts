@@ -1,0 +1,1 @@
+DBCC CHECKIDENT ('EventRecorder.FIRE', reseed, 1)

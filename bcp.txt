@@ -1,0 +1,3 @@
+bcp ODMS.dbo.WILDBearingWheelDetail out F:\TableData\WILDBearingWheelDetail.dat -n -T -b100000 -SIPTPRDSQL111,56420
+
+bcp ODMS_Analytics.dbo.WILDBearingWheelDetail in F:\TableData\WILDBearingWheelDetail.dat -n -T -b100000 -SICTPRDSQL101,56420 -E
