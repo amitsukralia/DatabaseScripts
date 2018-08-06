@@ -1,1 +1,1 @@
-DBCC CHECKIDENT ('EventRecorder.FIRE', reseed, 1)
+DBCC CHECKIDENT ('TableName', reseed, 1)
