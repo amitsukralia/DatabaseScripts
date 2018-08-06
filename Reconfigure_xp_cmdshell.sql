@@ -18,6 +18,9 @@ GO
 RECONFIGURE;
 GO
 
+/*****************************************/
+--NOW EXECUTE THE PART USING xp_cmdshell
+/*****************************************/
 
 --Once done rollback
 
