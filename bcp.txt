@@ -1,3 +1,3 @@
-bcp ODMS.dbo.WILDBearingWheelDetail out F:\TableData\WILDBearingWheelDetail.dat -n -T -b100000 -SIPTPRDSQL111,56420
+bcp TableName out C:\Temp\FileName.dat -n -T -b100000 -SServerName -DDatabaseName
 
-bcp ODMS_Analytics.dbo.WILDBearingWheelDetail in F:\TableData\WILDBearingWheelDetail.dat -n -T -b100000 -SICTPRDSQL101,56420 -E
+bcp TableName in C:\Temp\FileName.dat -n -T -b100000 -SServerName -DDatabaseName -E
