@@ -28,5 +28,5 @@ where extended_properties.class_desc = 'OBJECT_OR_COLUMN'
 and extended_properties.minor_id > 0
 
 and extended_properties.name = 'MS_Description'
-and object_name(major_id) = 'DATACORD_6100'
+and object_name(major_id) = 'TableName'
 
