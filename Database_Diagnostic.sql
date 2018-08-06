@@ -1,3 +1,3 @@
-DBCC CHECKDB ('cms_a') WITH NO_INFOMSGS, ALL_ERRORMSGS
+DBCC CHECKDB ('database_name') WITH NO_INFOMSGS, ALL_ERRORMSGS
 
-SELECT databasepropertyex('cms_a', 'STATUS')
+SELECT databasepropertyex('database_name', 'STATUS')
