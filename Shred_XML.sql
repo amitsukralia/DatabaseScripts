@@ -1,4 +1,4 @@
-declare @x XML = (select XMLPayload from Processing.LocomotiveXMLDataQueue 	WHERE [LocomotiveXMLDataQueueId] = 170)
+declare @x XML = (select XMLPayload from [TableName] 	WHERE [Id] = 170)
 
 ;WITH cte AS (  
 SELECT 
