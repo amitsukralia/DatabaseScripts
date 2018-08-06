@@ -1,2 +1,2 @@
-UPDATE STATISTICS ODMS.EventRecorder.FIRE ;  
+UPDATE STATISTICS [TableName] ;  
 GO  
